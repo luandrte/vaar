@@ -7,8 +7,8 @@
 ## Regra número um: nada interno aqui
 
 - **Nenhuma** senha, token, chave de API, endereço de servidor interno ou dado de usuário.
-- **Nenhum** documento interno: decisões, questões, pesquisas, SQL, workflows do n8n e o software da
-  quadra ficam no repositório **privado** `luandrte/vaar-sistema`.
+- **Nenhum** documento interno: decisões, questões, pesquisas, SQL, workflows do n8n, o firmware do botão e a
+  configuração da câmera ficam no repositório **privado** `luandrte/vaar-sistema`.
 - Na dúvida, o arquivo vai para o `vaar-sistema`.
 
 ## Regras de trabalho
