@@ -11,7 +11,7 @@
 | Onde | O que tem |
 | --- | --- |
 | [`CLAUDE.md`](CLAUDE.md) | as regras de como trabalhamos neste repositório |
-| [`docs/hospedagem.md`](docs/hospedagem.md) | onde o site vai ficar no ar e o risco do GitHub Pages |
+| [`docs/hospedagem.md`](docs/hospedagem.md) | onde o site vai ficar no ar (DEC-006) |
 | `.github/pull_request_template.md` | o modelo que todo pull request segue |
 
 O site em si ainda não existe: ele chega depois do esqueleto do produto.

@@ -36,8 +36,10 @@
 
 ## Hospedagem
 
-- Ver [`docs/hospedagem.md`](docs/hospedagem.md): o GitHub Pages pode não permitir um site de negócio
-  online; a alternativa é o Dokploy (questão Q-001 no `vaar-sistema`).
+- **DEC-006** (no `vaar-sistema`): no GitHub Pages fica **só a página de apresentação**, sem login nem venda.
+  Site do jogador, painel da quadra e área do administrador vão para o Dokploy na Fase 3.
+  Detalhes em [`docs/hospedagem.md`](docs/hospedagem.md).
+- **DEC-007**: este repositório fica **sem licença** por enquanto (ninguém tem permissão de copiar).
 
 ## Para quem escreve
 

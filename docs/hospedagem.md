@@ -1,27 +1,29 @@
 # Onde o site vai ficar no ar
 
-> **Em linguagem simples:** um site precisa "morar" em algum computador ligado na internet. Há duas
-> opções: o **GitHub Pages** (grátis, direto deste repositório) ou o **Dokploy** na VPS do VAAR
-> (o servidor alugado na Hostinger, que só será montado na Fase 3). Ainda não foi decidido.
+> **Em linguagem simples:** um site precisa "morar" em algum computador ligado na internet. A decisão
+> já foi tomada (**DEC-006**, no repositório `vaar-sistema`): no **GitHub Pages** (grátis, direto deste
+> repositório) fica **só uma página de apresentação**, sem login nem venda. Todo o resto vai para o
+> **Dokploy**, na VPS do VAAR (o servidor alugado na Hostinger), que será montada na Fase 3.
 
-## O risco do GitHub Pages
+## A decisão (DEC-006, 23/11/2026)
 
-- As regras do GitHub Pages parecem **proibir usar o serviço principalmente para um negócio online,
-  comércio eletrônico ou SaaS comercial** [não confirmado — em 23/11/2026 a rede desta sessão bloqueou
-  o acesso a <https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits>,
-  a página oficial que trata disso].
-- Se for assim, uma página de apresentação simples (sem login, sem venda) **talvez** possa ficar no Pages,
-  mas o site do jogador (com conta e compra de vídeos) não deve.
+| O quê | Onde fica | Quando |
+| --- | --- | --- |
+| Página de apresentação do VAAR (sem login, sem venda) | GitHub Pages, a partir deste repositório | quando a página existir |
+| Site do jogador (conta, clipes, compra) | Dokploy, na VPS da Hostinger | Fase 3 |
+| Painel da quadra | Dokploy, na VPS da Hostinger | Fase 3 |
+| Área do administrador | Dokploy, na VPS da Hostinger | Fase 3 |
 
-## A alternativa: Dokploy
+## Por que não dá para pôr tudo no GitHub Pages
 
-- O site pode rodar no Dokploy, na mesma VPS da Hostinger do resto do sistema (DEC-002).
-- Vantagem: sem o risco das regras do Pages e tudo num só lugar.
-- Desvantagem: depende da VPS, que só existe a partir da Fase 3.
+- A página oficial do GitHub diz que o Pages **não é permitido para rodar negócio online, e-commerce
+  ou SaaS comercial** [confirmado — <https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits>,
+  acesso em 23/11/2026].
+- Por isso a página de apresentação **nunca** pode ganhar login, compra ou área do jogador enquanto
+  estiver no Pages. Qualquer uma dessas coisas vai para o Dokploy.
 
-## O que falta
+## Histórico
 
-- **Q-001** (no `vaar-sistema`, `docs/questoes-abertas.md`): GitHub Pages ou Dokploy?
-  Sugestão: Pages só para uma página de apresentação enquanto a VPS não existe; Dokploy quando houver
-  login ou venda.
-- **T-002**: confirmar a regra na página oficial do GitHub.
+- A pergunta era a **Q-001** (no `vaar-sistema`, `docs/questoes-abertas.md`). O dono aceitou a sugestão
+  em 23/11/2026 e ela virou a **DEC-006**.
+- A tarefa **T-002** (confirmar a regra na página oficial) foi concluída em 23/11/2026.
